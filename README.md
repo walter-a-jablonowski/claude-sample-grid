@@ -12,7 +12,7 @@ I will continue this in a private copy as part of a advanced information managem
 LICENSE
 ----------------------------------------------------------
 
-Copyright (C) Walter A. Jablonowski 2024, free for non-commercial users currently under AGPLv3 [MIT license](LICENSE).
+Copyright (C) Walter A. Jablonowski 2024, free under [MIT license](LICENSE)
 
 This app is build upon PHP and free software (see [credits](credits.md))
 
