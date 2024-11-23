@@ -1,0 +1,4 @@
+This is sample data file 3 with some statistics:
+- Users: 1250
+- Active: 890
+- Premium: 325

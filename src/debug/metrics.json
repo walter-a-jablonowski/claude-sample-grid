@@ -1,0 +1,8 @@
+{
+  "data": [
+    {"metric": "Active Users", "value": 1250, "trend": "up"},
+    {"metric": "Response Time", "value": "125ms", "trend": "down"},
+    {"metric": "Error Rate", "value": "0.5%", "trend": "stable"},
+    {"metric": "Server Load", "value": "65%", "trend": "up"}
+  ]
+}

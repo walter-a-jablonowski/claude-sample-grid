@@ -1,0 +1,10 @@
+{
+  "data": [
+    {"month": "Jan", "revenue": 45000},
+    {"month": "Feb", "revenue": 52000},
+    {"month": "Mar", "revenue": 49000},
+    {"month": "Apr", "revenue": 58000},
+    {"month": "May", "revenue": 63000},
+    {"month": "Jun", "revenue": 59000}
+  ]
+}

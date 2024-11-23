@@ -1,0 +1,9 @@
+{
+  "data": [
+    {"id": 1, "name": "John Doe", "department": "Engineering", "role": "Developer"},
+    {"id": 2, "name": "Jane Smith", "department": "Design", "role": "UI/UX Designer"},
+    {"id": 3, "name": "Mike Johnson", "department": "Marketing", "role": "Manager"},
+    {"id": 4, "name": "Sarah Wilson", "department": "Engineering", "role": "DevOps"},
+    {"id": 5, "name": "Tom Brown", "department": "Sales", "role": "Representative"}
+  ]
+}

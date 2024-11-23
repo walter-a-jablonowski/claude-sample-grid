@@ -6,6 +6,8 @@ This view can show the contents of a file system folder in a grid view with mult
 
 I will continue this in a private copy as part of a advanced information management application.
 
+![alt text](misc/app.png)
+
 
 LICENSE
 ----------------------------------------------------------

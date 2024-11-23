@@ -1,0 +1,45 @@
+columns:
+  - panels:
+      - title: "Performance & Files"
+        widgets:
+          - type: "chart"
+            source: "debug/performance.json"
+            chartType: "pie"
+            options:
+              title: "Resource Usage"
+          - type: "file"
+            source: "debug/sample1.md"
+      - title: "System Metrics"
+        widgets:
+          - type: "stats"
+            source: "debug/metrics.json"
+            options:
+              layout: "grid"
+              refreshInterval: 60
+
+  - panels:
+      - title: "Weather & Sales"
+        widgets:
+          - type: "weather"
+            source: "Stegaurach,DE"
+          - type: "chart"
+            source: "debug/sample_data.json"
+            chartType: "line"
+            options:
+              title: "Monthly Sales"
+              xAxis: "Month"
+              yAxis: "Revenue"
+          - type: "file"
+            source: "debug/sample2.md"
+
+  - panels:
+      - title: "Data & Documents"
+        widgets:
+          - type: "table"
+            source: "debug/employees.json"
+            options:
+              pagination: true
+              pageSize: 10
+              sortable: true
+          - type: "file"
+            source: "debug/sample3.txt"

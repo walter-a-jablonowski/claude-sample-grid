@@ -1,0 +1,214 @@
+.dashboard-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 1rem;
+  padding-bottom: 1rem;
+}
+
+.dashboard-column {
+  flex: 0 0 400px;
+  min-width: 400px;
+}
+
+.panel {
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.panel-header {
+  padding: 0.75rem;
+  border-bottom: 1px solid #dee2e6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.panel-title {
+  margin: 0;
+  padding: 0;
+  font-size: 1.1rem;
+}
+
+.panel-content {
+  padding: 1rem;
+}
+
+.widget {
+  position: relative;
+  min-height: 50px;
+  background: white;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.widget-handle {
+  cursor: move;
+  opacity: 0.5;
+}
+
+.widget-handle:hover {
+  opacity: 1;
+}
+
+.panel-placeholder {
+  border: 2px dashed #dee2e6;
+  margin-bottom: 1rem;
+  height: 100px;
+  background: #f8f9fa;
+}
+
+.widget-placeholder {
+  border: 2px dashed #dee2e6;
+  margin-bottom: 1rem;
+  height: 50px;
+  background: #f8f9fa;
+}
+
+/* Widget-specific styles */
+.chart-container {
+  min-height: 200px;
+  padding: 15px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.weather-widget {
+  text-align: center;
+  padding: 10px;
+  background: linear-gradient(135deg, #6dd5ed, #2193b0);
+  color: white;
+  border-radius: 8px;
+}
+
+.weather-current {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 15px;
+}
+
+.weather-temp {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.weather-desc {
+  text-transform: capitalize;
+}
+
+.weather-forecast {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 15px;
+  border-top: 1px solid rgba(255,255,255,0.3);
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 10px;
+  padding: 15px;
+}
+
+.stat-item {
+  text-align: center;
+  padding: 10px;
+  background: rgba(0,0,0,0.05);
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.stat-label {
+  font-size: 0.9em;
+  color: #666;
+}
+
+.stat-value {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.stat-trend {
+  font-size: 0.8em;
+}
+
+.stat-trend.up {
+  color: #28a745;
+}
+
+.stat-trend.down {
+  color: #dc3545;
+}
+
+/* File widget styles */
+.file-widget {
+  padding: 10px;
+  background: rgba(0,0,0,0.02);
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.file-title {
+  font-size: 1em;
+  margin-bottom: 10px;
+  color: #666;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #eee;
+}
+
+.file-content {
+  font-size: 0.9em;
+  margin: 0;
+  white-space: pre-wrap;
+  max-height: 200px;
+  overflow-y: auto;
+  background: #f8f9fa;
+  padding: 10px;
+  border-radius: 4px;
+  font-family: monospace;
+}
+
+/* Table styles */
+.table-responsive {
+  margin: 15px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.table {
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.table th {
+  background-color: #f8f9fa;
+  border-bottom: 2px solid #dee2e6;
+  padding: 12px;
+  text-align: left;
+}
+
+.table td {
+  padding: 12px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(0,0,0,.02);
+}
+
+.table-hover tbody tr:hover {
+  background-color: rgba(0,0,0,.04);
+}
